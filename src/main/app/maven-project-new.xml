@@ -24,6 +24,8 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 	<jms:activemq-connector name="Active_MQ"
 		brokerURL="vm://localhost" validateConnections="true" doc:name="Active MQ" />
 
+
+
 	<flow name="mavenFlow">
 		<http:listener config-ref="HTTP_Listener_Configuration"
 			path="/hello" doc:name="HTTP" />
